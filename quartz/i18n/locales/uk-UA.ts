@@ -17,7 +17,7 @@ export default {
       warning: "Попередження",
       failure: "Невдача",
       danger: "Небезпека",
-      bug: "Баг",
+      bug: "Помилка",
       example: "Приклад",
       quote: "Цитата",
     },
@@ -36,7 +36,7 @@ export default {
       createdWith: "Створено за допомогою",
     },
     graph: {
-      title: "Вигляд графа",
+      title: "Зв'язки",
     },
     recentNotes: {
       title: "Останні нотатки",

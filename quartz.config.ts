@@ -8,13 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Mykhailo Ziatin",
+    pageTitle: "Михайло Зятін",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "uk-UA",
     baseUrl: "https://mykhailo-ziatin.github.io/_",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
@@ -22,8 +22,11 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        // https://fonts.google.com/specimen/Cormorant+Garamond?lang=uk_Cyrl
+        header: "Cormorant Garamond",
+        // https://fonts.google.com/specimen/Cormorant?lang=uk_Cyrl
+        body: "Cormorant",
+        // https://fonts.google.com/specimen/IBM+Plex+Mono?lang=uk_Cyrl
         code: "IBM Plex Mono",
       },
       colors: {
